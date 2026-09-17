@@ -30,7 +30,7 @@ public class CalculatorTest {
 	@Test
 	public void subtract3Test() {
 		calculator = new Calculator();
-		int expected = 42;
+		int expected = 2;
 		int actual = calculator.subtract("4,2");
 		assertEquals(expected, actual);
 	}
